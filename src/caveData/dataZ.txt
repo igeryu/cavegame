@@ -1,0 +1,190 @@
+// sample data file for CMSC 335, Summer 2013
+// Nicholas Duchon
+// Jan 23, 2012
+// May 22, 2013
+
+// Parties format:
+//    p:<index>:<name>
+p : 10000 : Guild
+p : 10001 : Herd
+p : 10002 : Phyle
+p : 10003 : Drove
+p : 10004 : Brotherhood
+
+// Creatures format:
+//    c:<index>:<type>:<name>:<party>:<empathy>:<fear>:<carrying capacity>[:<age>:<height>:<weight>]
+c : 20000 :     Wizard :      Nolan : 10000 :  70 :  26 :  16 :  346.85 :  280.76 :  818.87
+c : 20001 :   Magician :     Dannie : 10000 :  51 :  78 : 143 :  391.51 :  209.39 :  315.66
+c : 20002 :       Yeti :       Otto : 10000 :  45 :  74 : 139 :   71.24 :  255.93 :  711.94
+c : 20003 :      Giant :     Colton : 10000 :  88 :  14 :  61 :  499.13 :  315.73 :  439.22
+c : 20004 :       Hero :    Jerrold : 10000 :  56 :  17 : 183 :  164.73 :   89.18 :  144.45
+c : 20005 :       Djin :     Donald : 10000 :   4 :  75 : 236 :   12.28 :   58.53 :  575.35
+c : 20006 :      Witch :      Adela : 10001 :  43 :  11 :  23 :  200.56 :  263.86 :  746.62
+c : 20007 :     Kobold :   Shavonne : 10001 :  27 :  94 : 117 :   80.56 :   90.87 :  238.58
+c : 20008 :      Witch :  Gabriella : 10002 :  58 :  60 :  58 :   20.73 :  204.53 :  356.73
+c : 20009 :   Magician :     Jessie : 10002 :  21 :  27 : 201 :  124.98 :  187.98 :  406.72
+c : 20010 :  Priestess :    Krystal : 10003 :  77 :  58 : 128 :  447.23 :   44.59 :  480.37
+c : 20011 :    Warlock :      Grady : 10003 :  57 :  15 :  74 :  118.14 :   69.06 :  634.57
+c : 20012 :     Priest :   Demarcus : 10004 :  84 :  85 : 221 :   53.92 :  139.80 :  267.69
+c : 20013 :   Magician :      Herma : 10004 :  14 :  80 :  36 :  161.90 :  187.07 :   30.13
+c : 20014 :      Witch :   Willette : 10004 :  17 :  69 :  92 :  271.40 :   90.95 :  395.92
+c : 20015 :   Magician :     Leslie : 10004 :  58 :   5 :  82 :  395.93 :  281.62 :  683.55
+c : 20016 :      Gnome :    Claudio : 10004 :  22 :  41 : 287 :  235.96 :   98.17 :  917.33
+c : 20017 : Leprechaun :   Elfrieda : 10004 :  24 :  23 : 247 :  157.69 :   52.15 :  879.88
+
+// Treasures format:
+//    t:<index>:<type>:<creature>:<weight>:<value>
+// creature = 0 means noone is carrying that treasure at the moment
+t : 30000 :            Gems : 20000 : 279.5 :    31
+t : 30001 :       Napoleons : 20001 :  60.3 :    52
+t : 30002 :     Kijang Emas : 20001 : 254.4 :    52
+t : 30003 :          Silver : 20002 : 151.6 :    96
+t : 30004 :           Panda : 20002 : 194.8 :    22
+t : 30005 :         Florins : 20003 : 265.9 :    93
+t : 30006 :       Doubloons : 20004 : 305.4 :    98
+t : 30007 :         Florins : 20004 : 271.3 :    27
+t : 30008 :   Double Eagles : 20005 : 154.4 :    98
+t : 30009 :      Britannias : 20005 : 241.3 :    77
+t : 30010 :      Chervonets : 20006 : 272.1 :    76
+t : 30011 : Pieces of Eight : 20006 : 140.5 :     4
+t : 30012 :        Guildens : 20007 :  80.9 :     8
+t : 30013 :        Guildens : 20008 : 214.8 :    81
+t : 30014 :           Chest : 20009 :  24.8 :    92
+t : 30015 :        Guilders : 20009 :  88.3 :    76
+t : 30016 :         Florins : 20010 :  79.2 :    83
+t : 30017 :           Dinar : 20010 : 271.7 :    95
+t : 30018 :          Silver : 20011 : 117.7 :     0
+t : 30019 :     Krugerrands : 20012 : 276.0 :    64
+t : 30020 :        Guildens : 20013 :  92.4 :    89
+t : 30021 :   Double Eagles : 20014 : 166.2 :    19
+t : 30022 :          Silver : 20014 : 263.6 :    53
+t : 30023 :            Gold : 20015 : 281.7 :    70
+t : 30024 :         Vreneli : 20016 : 109.0 :    62
+t : 30025 :           Marks : 20016 : 120.3 :    74
+t : 30026 :            Gold : 20017 : 210.1 :    79
+t : 30027 :      Chervonets : 20017 : 298.3 :    87
+
+// Artifacts format:
+//    a:<index>:<type>:<creature>[:<name>]
+a : 40000 :   Stone : 20000 : Aquamarine
+a : 40001 :  Potion : 20000 : Stone to Flesh
+a : 40002 :    Wand : 20000 : Wand
+a : 40003 :    Wand : 20000 : Wand
+a : 40004 :  Weapon : 20000 : Halberd
+a : 40005 :  Weapon : 20000 : Repeating crossbow
+a : 40006 :   Stone : 20001 : Topaz
+a : 40007 :   Stone : 20001 : Citrine
+a : 40008 :  Potion : 20001 : Cure Weakness
+a : 40009 :    Wand : 20001 : Wand
+a : 40010 :    Wand : 20001 : Wand
+a : 40011 :  Weapon : 20001 : Sword
+a : 40012 :  Weapon : 20001 : Katana
+a : 40013 :   Stone : 20002 : Citrine
+a : 40014 :   Stone : 20002 : Axinite
+a : 40015 :   Stone : 20002 : Zeolite
+a : 40016 :  Potion : 20002 : Stone Skin
+a : 40017 :  Potion : 20002 : Freezing
+a : 40018 :    Wand : 20002 : Wand
+a : 40019 :  Weapon : 20002 : Throwing Spear
+a : 40020 :  Weapon : 20002 : Epee
+a : 40021 :   Stone : 20003 : Sugilite
+a : 40022 :   Stone : 20003 : Dioptase
+a : 40023 :  Potion : 20003 : Flaming
+a : 40024 :    Wand : 20003 : Wand
+a : 40025 :    Wand : 20003 : Wand
+a : 40026 :  Weapon : 20003 : Flamberge
+a : 40027 :   Stone : 20004 : Lapis-lazuli
+a : 40028 :   Stone : 20004 : Iolite
+a : 40029 :   Stone : 20004 : Hematite
+a : 40030 :  Potion : 20004 : Heroism
+a : 40031 :    Wand : 20004 : Wand
+a : 40032 :    Wand : 20004 : Wand
+a : 40033 :  Weapon : 20004 : Arquebus
+a : 40034 :  Weapon : 20004 : Flamberge
+a : 40035 :  Weapon : 20004 : Falchion
+a : 40036 :   Stone : 20005 : Bixbite
+a : 40037 :   Stone : 20005 : Chrysoprase
+a : 40038 :   Stone : 20005 : Hambergite
+a : 40039 :  Potion : 20005 : Divine Power
+a : 40040 :  Potion : 20005 : Body Resistance
+a : 40041 :    Wand : 20005 : Wand
+a : 40042 :    Wand : 20005 : Wand
+a : 40043 :  Weapon : 20005 : Longsword
+a : 40044 :   Stone : 20006 : Spinel
+a : 40045 :  Potion : 20006 : Accuracy Boost
+a : 40046 :  Potion : 20006 : Pure Might
+a : 40047 :    Wand : 20006 : Wand
+a : 40048 :  Weapon : 20006 : Musket
+a : 40049 :  Weapon : 20006 : Flamberge
+a : 40050 :   Stone : 20007 : Quartz
+a : 40051 :   Stone : 20007 : Sapphire
+a : 40052 :  Potion : 20007 : Pure Luck
+a : 40053 :    Wand : 20007 : Wand
+a : 40054 :  Weapon : 20007 : Zweihander
+a : 40055 :  Weapon : 20007 : Quarterstaff
+a : 40056 :  Weapon : 20007 : Repeating crossbow
+a : 40057 :   Stone : 20008 : Pyrite
+a : 40058 :  Potion : 20008 : Preservation
+a : 40059 :  Potion : 20008 : Haste
+a : 40060 :    Wand : 20008 : Wand
+a : 40061 :  Weapon : 20008 : Mace
+a : 40062 :  Weapon : 20008 : Flail
+a : 40063 :   Stone : 20009 : Jasper
+a : 40064 :   Stone : 20009 : Zircon
+a : 40065 :  Potion : 20009 : Pure Speed
+a : 40066 :  Potion : 20009 : Cure Wounds
+a : 40067 :    Wand : 20009 : Wand
+a : 40068 :    Wand : 20009 : Wand
+a : 40069 :  Weapon : 20009 : Dirk
+a : 40070 :   Stone : 20010 : Opal
+a : 40071 :   Stone : 20010 : Benitoite
+a : 40072 :  Potion : 20010 : Accuracy Boost
+a : 40073 :    Wand : 20010 : Wand
+a : 40074 :    Wand : 20010 : Wand
+a : 40075 :  Weapon : 20010 : Sabre
+a : 40076 :  Weapon : 20010 : Repeating crossbow
+a : 40077 :  Weapon : 20010 : Club
+a : 40078 :   Stone : 20011 : Variscite
+a : 40079 :  Potion : 20011 : Recharge Item
+a : 40080 :  Potion : 20011 : Heroism
+a : 40081 :    Wand : 20011 : Wand
+a : 40082 :  Weapon : 20011 : Crossbow
+a : 40083 :  Weapon : 20011 : Claymore
+a : 40084 :  Weapon : 20011 : Maul
+a : 40085 :   Stone : 20012 : Aquamarine
+a : 40086 :   Stone : 20012 : Jade
+a : 40087 :  Potion : 20012 : Cure Insanity
+a : 40088 :    Wand : 20012 : Wand
+a : 40089 :  Weapon : 20012 : Falchion
+a : 40090 :   Stone : 20013 : Alexandrite
+a : 40091 :   Stone : 20013 : Emerald
+a : 40092 :   Stone : 20013 : Danburite
+a : 40093 :  Potion : 20013 : Rejuvenation
+a : 40094 :    Wand : 20013 : Wand
+a : 40095 :    Wand : 20013 : Wand
+a : 40096 :  Weapon : 20013 : Falchion
+a : 40097 :  Weapon : 20013 : Flamberge
+a : 40098 :  Weapon : 20013 : Club
+a : 40099 :   Stone : 20014 : Alexandrite
+a : 40100 :   Stone : 20014 : Tiger-eye
+a : 40101 :   Stone : 20014 : Iolite
+a : 40102 :  Potion : 20014 : Awaken
+a : 40103 :  Potion : 20014 : Cure Insanity
+a : 40104 :    Wand : 20014 : Wand
+a : 40105 :  Weapon : 20014 : Flamberge
+a : 40106 :   Stone : 20015 : Kornerupine
+a : 40107 :   Stone : 20015 : Tourmaline
+a : 40108 :  Potion : 20015 : Stone to Flesh
+a : 40109 :    Wand : 20015 : Wand
+a : 40110 :  Weapon : 20015 : Musket
+a : 40111 :  Weapon : 20015 : Sword
+a : 40112 :   Stone : 20016 : Amethyst
+a : 40113 :  Potion : 20016 : Shield
+a : 40114 :  Potion : 20016 : Divine Cure
+a : 40115 :    Wand : 20016 : Wand
+a : 40116 :    Wand : 20016 : Wand
+a : 40117 :  Weapon : 20016 : Shortsword
+a : 40118 :   Stone : 20017 : Zeolite
+a : 40119 :  Potion : 20017 : Pure Personality
+a : 40120 :    Wand : 20017 : Wand
+a : 40121 :  Weapon : 20017 : Shuriken
